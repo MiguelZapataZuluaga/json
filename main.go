@@ -26,10 +26,8 @@ func Tree() {
 				fmt.Println("Error reading file: ", err)
 				return err
 			}
-			fileData := map[string]interface{}{
-				"content": string(data),
-			}
-			jsonData[info.Name()] = fileData
+			str_content := string(data)
+			jsonData[info.Name()] = str_content
 		}
 		return nil
 	})
