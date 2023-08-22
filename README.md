@@ -3,4 +3,4 @@ go init
 
 # TASK
 
-- [ ] GENERAR UN SOLO ARCHIVO JSON :tada:
+- [X] GENERAR UN SOLO ARCHIVO JSON :tada:
